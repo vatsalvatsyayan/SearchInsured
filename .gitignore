@@ -1,0 +1,50 @@
+# ===== Python cache & virtual environment =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.env
+.venv
+myenv/
+env/
+venv/
+
+# ===== Editor & OS files =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Build / Logs / Misc =====
+*.log
+*.tmp
+*.bak
+*.old
+*.cache/
+.cache/
+*.sqlite3
+
+# ===== Project-specific =====
+old/
+data/*.faiss
+data/*.json
+!data/.gitkeep  # keep empty folder if needed
+
+# ===== Node / Frontend (if any) =====
+node_modules/
+dist/
+build/
+coverage/
+
+# ===== Environment & keys =====
+.env.local
+.env.dev
+.env.prod
+*.pem
+*.key
