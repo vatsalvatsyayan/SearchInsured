@@ -1,0 +1,1 @@
+SearchInsured uses Agentic RAG to connect users on-demand with specialized healthcare services covered by insurance, which is a physical and financial lifesaver during a medical emergency.
